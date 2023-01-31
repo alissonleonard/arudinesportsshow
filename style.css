@@ -1,79 +1,191 @@
-body {
-    
+header {
 
-}
-
-#banner{
-    width: 100%;
-}
-
-
-.sobre{
-    background: #CCCCCC;
-    padding: 30px;
-
-}
-
-.titulo-sobre {
-
-    padding-left: 20px;
-}
-
-
-.titulo-centralizado  {
-text-align: center
-
-}
-
-
-p {
-
-text-align: center;
-
-}
-
-#missao {
-    font-size: 20px
-
-}
-
-
-em strong {
-
-color: blue;
+    background: #afafaf63;
+    padding: 0px;
 
 
 }
 
-.itens {
-font-style: italic;
+.caixa{
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
 
-}
-
-.servicos {
-    background: #FFFFFF;
-    padding: 20px;
-
-
-}
-
-
-ul {
-   display: inline-block;
-   vertical-align: top;
-   width: 20%;
-   margin-right: 15%;
-}
-
-.fuscabrasil {
-
-    width: 50%;
     
 }
 
-.contato {
+nav {
 
-    background: #CCCCCC;
-    padding: 30px;
+position: absolute;
+top: 110px;
+right: 0;
 
+
+
+}
+
+nav li {
+
+
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 110px;
+
+    
+}
+
+nav a {
+
+text-transform: uppercase;
+color: #000000;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+}
+
+nav a:hover {
+
+color: #C78C19;
+text-decoration: underline;
+
+
+}
+
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+
+    display: inline-block;
+    text-align: center;
+    width: 310px;
+    vertical-align: top;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
+.produtos li:hover
+ {
+    border-color: #C78C19;
+    
+
+
+}
+
+.produtos li:active
+
+{
+
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+
+    font-size: 34px;
+}
+
+.produtos h2{
+
+font-size: 30px;
+font-weight: bold;
+
+}
+
+.produto-descricao {
+
+font-size: 18px;
+
+} 
+.produto-preco {
+
+
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 1px 0;
+
+}
+
+.copyright {
+
+color: #FFFFFF;
+font-size: 15px;
+margin: 20px 0 0;
+
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form {
+
+margin: 40px 0;
+
+}
+
+
+form label, form p {
+
+display: block;
+font-size: 20px;
+margin: 0 0 10px;
+
+}
+
+.input-padrao {
+
+display: block;
+margin: 0 0 20px;
+padding: 10px 25px;
+width: 50%;
+
+}
+
+.checkbox {
+    margin: 20px 0;
+
+}
+
+p{
+
+color: red;
+
+}
+
+form p {
+
+    color: blue;
+}
+
+
+.teste {
+
+    color: yellow;
+}
+
+p.teste {
+
+    color: orange;
+}
+
+#teste {
+
+    color: pink;
 }
