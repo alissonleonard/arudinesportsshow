@@ -14,7 +14,7 @@
 <body>
     <header>
     <div class="caixa">
-    <h1><img src="auroratuning.png"></h1>
+    <h1><img src="auroratuning.png" alt="Logo da Barbearia"></h1>
 
     <nav>
     <ul>
@@ -43,8 +43,8 @@
         <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea >
 
 
-<div>
-         <p class="teste" id="teste" style="color:black">Como prefere o nosso contato?</p>
+<fieldset>
+         <legend>Como prefere o nosso contato?</legend>
         <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email</label>
        
 
@@ -53,16 +53,16 @@
 
         <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked >WhatsApp</label>
         
-</div>
+</fieldset>
 
-<div>
-     <p class="teste" id="teste" style="color:black">Qual Horário prefere ser atendido?</p>
+<fieldset>
+     <legend>Qual Horário prefere ser atendido?</legend>
     <select>
     <option> Manhã</option>
     <option> Tarde</option>
     <option> Noite</option>
     </select>
-</div>   
+</fieldset>   
 
 
     <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
@@ -70,10 +70,46 @@
 
 
 
-        <input type="submit" value="Enviar Formulário">
-
-
+        <input type="submit" value="Enviar Formulário" class="enviar">
 </form>
+
+
+<p class="horario-funcionamento">Horário de funcionamento:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+        </tr>
+    </thead>
+     <tbody>
+        <tr>
+           <td>Segunda</td>
+           <td>8h ~ 20h</td>
+        </tr>
+
+        <tr>
+           <td>Terça</td>
+           <td>8h ~ 20h</td>
+        </tr>
+
+        <tr>
+           <td>Quarta</td>
+           <td>8h ~ 20h</td>
+        </tr>
+
+        <tr>
+           <td>Quinta</td>
+           <td>8h ~ 20h</td>
+        </tr>
+
+         <tr>
+           <td>Sexta</td>
+           <td>8h ~ 20h</td>
+         </tr>
+    </tbody>
+</table>
 
 </main>
 
@@ -81,7 +117,7 @@
 
 
 <footer>
-    <img src="logo_preto_png.png">
+    <img src="logo_preto_png.png" alt="Logo da Barbearia Alura">
     <p class="copyright">&copy; Copyright Aurora Tuning - 2023</p>
     </footer>
 </body>

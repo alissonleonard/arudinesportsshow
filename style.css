@@ -45,7 +45,7 @@ text-decoration: none;
 
 nav a:hover {
 
-color: #C78C19;
+color: royalblue;
 text-decoration: underline;
 
 
@@ -74,7 +74,7 @@ text-decoration: underline;
 
 .produtos li:hover
  {
-    border-color: #C78C19;
+    border-color: royalblue;
     
 
 
@@ -141,7 +141,7 @@ margin: 40px 0;
 }
 
 
-form label, form p {
+form label, form legend {
 
 display: block;
 font-size: 20px;
@@ -165,7 +165,7 @@ width: 50%;
 
 p{
 
-color: red;
+color: rgb(0, 0, 0);
 
 }
 
@@ -188,4 +188,57 @@ p.teste {
 #teste {
 
     color: pink;
+}
+
+.enviar {
+
+     width: 40%;
+     padding: 15px 0;
+     background: rgb(22, 21, 17);
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+     border-radius: 5px;
+     transition: 1s all;
+     cursor: pointer;
+
+    
+
+}
+
+.enviar:hover {
+
+     background-color: royalblue;
+     transform: scale(1.1);
+
+}
+
+.horario-funcionamento {
+
+    font-size: 18px;
+
+}
+
+
+table {
+
+margin: 20px 0 40px;
+
+}
+
+thead {
+
+background: #555555;
+color:white;
+font-weight: bold;
+
+}
+
+td, th {
+
+    border: 1px solid #000000;
+    padding: 8px 15px;
+
+
 }
