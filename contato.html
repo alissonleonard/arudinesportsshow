@@ -7,40 +7,41 @@
     
     
     <title>CONTATO-AURORA TUNING</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 <body>
     <header>
-    <div class="caixa">
-    <h1><img src="auroratuning.png" alt="Logo da Barbearia"></h1>
+        <div class="caixa">
+            <h1>
+                <img src="assets/img/auroratuning.png" alt="Logo da Barbearia">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <nav>
-    <ul>
-       <li><a href="index.html">Home</a></li>
-       <li><a href="produtos.html">Produtos</a></li>
-       <li><a href="contato.html">Contato</a></li>
-    
+    <main>
+        <form>
+            <label for="nomecompleto">Nome Completo</label>
+            <input type="text" id="nomecompleto" class="input-padrao" required> 
 
-    </ul>
-    </nav>
-</div>
-</header>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-<main>
-   <form>
-         <label for="nomecompleto">Nome Completo</label>
-        <input type="text" id="nomecompleto" class="input-padrao" required> 
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-        <label for="email">Email</label>
-        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-
-        <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-
-         <label for="mensagem">Mensagem</label>
-        <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea >
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea >
 
 
 <fieldset>
@@ -117,8 +118,14 @@
 
 
 <footer>
-    <img src="logo_preto_png.png" alt="Logo da Barbearia Alura">
+    <img src="assets/img/logo_preto_png.png" alt="Logo da Barbearia Alura">
+    <p> <a href="produtos.html">www.produtos.auroratuning.com.br</a></p> 
     <p class="copyright">&copy; Copyright Aurora Tuning - 2023</p>
     </footer>
 </body>
+
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+
 </html>
