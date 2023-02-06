@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-index.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AURORA TUNING</title>
 </head>
+
+
 <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <h1 class="navbar-brand" href="#">Aurora Tuning</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-nos">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nossos-servicos">Nossos Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video-aurora">Vídeos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato-link">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="auroratuning-banner">
+
+        <div class="mt-5"></div>
+        <div class="container">
+        <h1>Aurora Tuning</h1>
+        <p>Projetando o carro dos sonhos desde 2020</p>
+        <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+      </div>
+  </div>
+
+
+    </header>
+
 
     <!-- CONTEUDO DO CONTAINER -->
     
-<div class="container-fluid">
+<div id="sobre-nos" class="container-fluid">
     <h2>Sobre nós</h2>
     <img class="img-thumbnail" src="assets/img/logo_aurora.png" class="img.rounded" alt="Logo_aurora">
         
@@ -50,12 +92,19 @@
       </div>
       
 <!-- end -->
+<div class="mt-5"></div>
+<div class="jumbotron">
+  <h2>Mais de 300 prêmios em design e em desempenho.</h2>
+  <p>Mais de 100 mil clientes satisfeitos em todo o mundo.</p>
+</div>
 
-<!-- CARROCEIS -->
+<div class="mt-5"></div>
 
-      <h2>Nossos Serviços</h2>
+<!-- CARROCEIS 1 -->
 
-      <p></p>
+      <h2 id="nossos-servicos">Nossos Serviços</h2>
+
+      <div class="mt-3"></div>
 
       <h5>DODGE CHALLENGER RT</h5>
 
@@ -85,9 +134,12 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <p></p>
+      <div class="mt-3"></div>
       <p>Veículo teve seu motor totalmente reformulado para nosso cliente, para longas horas ao volante pelas estradas da cidade."</p>
 
+      <!-- END -->
+
+       <!-- CARROCEIS 2 -->
 
       <h5>1977 - BMW 320 GROUP 5</h5>
 
@@ -118,17 +170,21 @@
         </button>
       </div>
 
-      <p></p>
+      <div class="mt-3"></div>
       <p>Veículo preparado com os nossos equipamentos para disputar arrancas pelo Brasil e eventos no exterior"</p>
+
+      <!-- END -->
+
+      <!-- CARROCEIS 3 -->
 
       
       <h5>SUBARU IMPREZA S5 WRC</h5>
 
-      <div id="carouselExampleIndicators" class="carousel slide">
+      <div id="slides3" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#slides3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#slides3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#slides3" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -141,62 +197,69 @@
             <img src="assets/img/subaru_motor.jpg" class="d-block w-100" alt="3">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#slides3" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#slides3" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
 
-      <p></p>
+      <div class="mt-3"></div>
       <p>Veículo foi totalmente reformado para seu dono, o mesmo útiliza-o para eventos esportivos na categoria "contra o tempo".</p>
 
+      <!-- END -->
 
-      <p></p>
+      <!-- CARROCEIS 4 -->
 
-      <h5>DODGE CHALLENGER RT</h5>
+      <div class="mt-3"></div>
 
-        <div id="slides1" class="carousel slide">
+      <h5>BUGATTI VEYRON GRAND SPORT </h5>
+
+        <div id="slides4" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#slides1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#slides1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#slides1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#4" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/dg_front.jpg" class="d-block w-100" alt="1">
+            <img src="assets/img/bugatti_front.jpg" class="d-block w-100" alt="1">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/dg_side.jpg" class="d-block w-100" alt="2">
+            <img src="assets/img/bugatti_inside.jpg" class="d-block w-100" alt="2">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/dg_back.jpg" class="d-block w-100" alt="3">
+            <img src="assets/img/bugatti_road.jpg" class="d-block w-100" alt="3">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#slides1" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#slides4" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#slides1" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#slides4" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <p></p>
-      <p>Veículo teve seu motor totalmente reformulado para nosso cliente, para longas horas ao volante pelas estradas da cidade."</p>
+      <div class="mt-3"></div>
+      <p>Veículo teve sua pintura totalmente modificada para o gosto do cliente.</p>
 
-      <p></p>
+      <div class="mt-3"></div>
+
+      <!-- END -->
+
+      <!-- CARROCEIS 5 -->
 
       <h5>1950 - BENTLEY MARK VI </h5>
 
-        <div id="slides1" class="carousel slide">
+        <div id="slides5" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#slides1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#slides1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#slides1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#slides5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#slides5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#slides5" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -209,22 +272,115 @@
             <img src="assets/img/bentley-inside.jpg" class="d-block w-100" alt="3">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#slides1" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#slides5" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#slides1" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#slides5" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <p></p>
+      <div class="mt-3"></div>
       <p>Veículo teve seu motor totalmente reformulado para nosso cliente, para longas horas ao volante pelas estradas da cidade."</p>
       
 
       <!-- END -->
 
 
+      <!-- VIDEO -->
+
+      <div class="mt-3"></div>
+
+      <h2 id="video-aurora">CONHEÇA NOSSO CANAL NO YOUTUBE</h2>
+
+      <div class="mt-3"></div>
+      <div class="embed-responsive embed-responsive-16by">
+        <iframe width="350" height="200" src="https://www.youtube.com/embed/AE9ACOT9LGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+  <!-- END -->
+
+  <!-- CONTATO -->
+
+<section>
+  <div class="mt-3"></div>
+
+    <h2 id="contato-link">Contato</h2>
+    
+  
+  <form>
+     <label for="contato_name">Nome</label>
+     <input type="text" class="form-control" id="nome-cadastro" aria-describedby="nomeHelp">  
+  </form>
+  <div class="mt-3"></div>
+
+  <form>
+    <div class="email-1">
+      <label for="email-endereco" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email-endereco" aria-describedby="emailHelp">
+    </div>
+
+    <div class="mt-3"></div>
+
+    <!-- CHECK's -->
+    <div class="grupo-radio">
+    <div class="radio">
+      <input class="radio-input" type="radio" name="tipo-pessoa" id="check-1">
+      <label class="radio-label" for="check-1">
+        Pessoa Física
+      </label>
+    </div>
+    <div class="radio">
+      <input class="radio-input" type="radio" name="tipo-pessoa" id="check-2" checked>
+      <label class="radio-label" for="check-2">
+        Pessoa Jurídica
+      </label>
+      </div>
+    
+    <div class="mt-3"></div>
+      <select> 
+
+        <option disabled selected>Tipo de Serviço</option>
+        <option>Motor</option>
+        <option>Rodas</option>
+        <option>Pintura</option>
+    
+    
+      </select>
+    
+    
+    </div>
+    <div class="mt-3"></div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+  <div class="mt-3"></div>
+
+  <!-- rodapé -->
+
+  <footer>
+<address>
+  <strong>Aurora Tuning</strong><div class="mt-3"></div>
+  Rua Benjamin Knobel, 33 , Nova Marília<div class="mt-3"></div>
+  São Paulo, SP<div class="mt-3"></div>
+  (14) 99806-9022 ou ( 14) 99806-9554  
+</address>
+
+<address>
+
+ site: www.produtos.auroratuning.com.br
+
+</address>
+</footer>
+
+
+</section>
+</div>
+
+
+<!-- END -->
+
+
+
       
 
 
@@ -238,10 +394,7 @@
 
 
 
-    
-
-
-</div>
+  </div>
 
 <script src="../arudinesportsshow/assets/js/jquery.min.js"></script>
 <script src="../arudinesportsshow/assets/js/bootstrap.min.js"></script>
